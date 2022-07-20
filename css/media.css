@@ -9,7 +9,12 @@
         height: 591px;
     }
 
-    .header-top, .header-content {
+    
+    .header-top {
+        width: 100%;
+    }
+
+    .header-content {
         width: 900px;
         padding-left: 15px;
         padding-right: 15px;
@@ -99,8 +104,9 @@
         width: 600px;
     }
 
+    
     .header-top, .header-content {
-        width: 600px;
+        width: 100%;
     }
 
     .header-content p {
