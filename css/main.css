@@ -138,6 +138,7 @@ label {
 .title {
     font-weight: 700;
     font-size: 60px;
+    margin-bottom: 20px;
 }
 
 .header-content p {
@@ -219,6 +220,7 @@ label {
 }
 
 .button {
+    display: inline-block;
     height: 50px;
     padding: 12px 40px 12px 41px;
     background: #0AC883;
