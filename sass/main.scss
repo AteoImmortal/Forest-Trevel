@@ -1,18 +1,19 @@
 // Base
-@import "./base/_base.scss";
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
 
 // Blocks
-@import "./blocks/_button.scss";
-@import "./blocks/_logo.scss";
-@import "./blocks/_header.scss";
-@import "./blocks/_main.scss";
-@import "./blocks/_footer.scss";
-@import "./blocks/_card.scss";
-@import "./blocks/_article.scss";
-@import "./blocks/_contacts.scss";
-@import "./blocks/_form.scss";
+@import "./blocks/nav-icon";
+@import "./blocks/link";
+@import "./blocks/social";
+@import "./blocks/title";
+@import "./blocks/nav";
+@import "./blocks/card";
+@import "./blocks/hw";
+@import "./blocks/contact";
 
-//Media
-@import "./media/_tablet.scss";
-@import "./media/_mobile.scss";
-@import "./media/_mobile-xs.scss";
+@import "./blocks/header";
+@import "./blocks/main";
+@import "./blocks/footer";
