@@ -1,293 +1,119 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Portfolio - Денис Кушнер</title>
-		<meta name="description" content="Портфолио - Денис Кушнер" />
-		<meta name="keywords" content="портфолио, frontend, верстка, создание сайтов, фриланс" />
+    <title>Туристическое агенство Форест Тревел</title>
+    <meta name="description" content="Турпоходы по дикой природе от туристического агенства Форест Тревел в Москве">
+    <meta name="keywords" content="турпоходы, лес, природы, турагнество, Форест Тревел">
 
-		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div id="overlay"></div>
-		
-		<!-- Навигация -->
-		<div class="header-top">
-			<div class="container">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>  
 
-				<!-- Навигация на ПК -->
-				<nav class="nav">
-					<ul class="nav__list">
-						<li class="nav__item"><a href="#skills">Навыки</a></li>
-						<li class="nav__item"><a href="#portfolio">Портфолио</a></li>
-						<li class="nav__item"><a href="#hw">Как я работаю</a></li>
-						<li class="nav__item"><a href="#contact">Контакты</a></li>
-					</ul>
-					<div class="social">
-						<a href="https://www.linkedin.com/in/%D0%B4%D0%B5%D0%BD%D0%B8%D1%81-%D0%BA%D1%83%D1%88%D0%BD%D0%B5%D1%80-ab272124a/"><img class="social__linkedin" src="./img/soc/linkedin.svg" alt="linkedin"></a>
-						<a href="https://github.com/AteoImmortal"><img class="social__github" src="./img/soc/github.svg" alt="github"></a>
-					</div>
-				</nav>
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">ФорестТревел</div>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./index.html">Главная</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./tours.html">Туры и направления</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./404.html">О компании</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./404.html">Галерея</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./contacts.html">Контакты</a></li>
+                </ul>
+                <button class="header-nav-button">
+                    <img src="./img/menu.svg" alt="Menu button">
+                </button>
+            </nav>
+        </div>
+        <div class="header-content">
+            <h1 class="title">Путешествие всегда хорошая идея</h1>
+            <p>Турпоходы по дикой природе</p>
+        </div>
+        <a href="#main" class="header-scroll">скролл вниз</a>
+    </header>
 
-				<!-- Мобильная навигация -->
-				<div class="nav__mini">
-					<div class=" nav__logo">
-						<p>HTML Верстальщик</p>
-					</div>
-					<div class="nav__mobile ">
-						<ul class="nav__mobile-list">
-							<li class="nav__item"><a href="#skills">Навыки</a></li>
-							<li class="nav__item"><a href="#portfolio">Портфолио</a></li>
-							<li class="nav__item"><a href="#hw">Как я работаю</a></li>
-							<li class="nav__item"><a href="#contact">Контакты</a></li>
-						</ul>
-						<div class="nav__connection">
-							<ul class="connection">
-								<li class="connection__item"><a href="https://t.me/ateo_immortal"><img src="./img/soc/telegram.svg" alt="telegram"></a></li>
-								<li class="connection__item"><a href="https://vk.com/serega_3naet_tollk"><img src="./img/soc/vk.svg" alt="vk"></a></li>
-								<li class="connection__item"><a href="https://www.facebook.com/profile.php?id=100085423022082"><img src="./img/soc/facebook.svg" alt="facebook"></a></li>
-								<li class="connection__item"><a href="https://www.instagram.com/Ateo_Immortal/"><img src="./img/soc/instagram.svg" alt="instagram"></a></li>
-								<li class="connection__item"><a href="https://api.whatsapp.com/send? phone=80445819214"><img src="./img/soc/whatsapp.svg" alt="whatsapp"></a></li>
-							</ul>
-							<a class="link" href="mailto:info@portfolio.com">ateo.immortal228@gmail.com</a>
-						</div>
-					</div>
-					<div class="nav-icon">
-						<div class="nav-icon__middle"></div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <main class="main" id="main">
+        <div class="container">
 
-		<!-- Шапка -->
-		<header class="header">
-			<div class="container">
+            <div class="main-row">
+                <div class="main-content">
+                    <h2 class="header-2">Популярные направления</h2>
+                    <div class="main-content-text">
+                        <p>Когда <b>Горный Алтай</b> называют второй Швейцарией, алтайцы отвечают, что нужно еще разобраться, кто тут второй. Чтобы расставить все по местам, отправляйтесь в путешествие по Чуйскому тракту , по <a href="#">Горному Алтаю</a> до самой Монголии. 962 км — полный маршрут <b>Новосибирск—Новоалтайск—Бийск—Майма</b> —государственная граница с Монголией.</p>
+                    </div>
+                    <a class="button" href="#">Подробнее</a>
+                </div>
+                <div class="main-img">
+                    <img src="./img/Rectangle 3.jpg" alt="Компас">
+                </div>
+            </div>
 
-				<section class="header__center">
-					<div class="header__about-me">
-						<div class="header__title-first">
-							<h1 class="title-1 title--gradient">Денис Кушнер</h1>
-						</div>
-						<p>Верстальщик сайтов, веб-разработчик. Оперативная верстка. Работаю с соблюдением сроков и выполнением ТЗ. </p>
-						<div class="header-buttons">
-							<a href="#portfolio" class="button button--yellow">Познакомиться</a>
-							<a href="#contact" class="button button--grey">Контакты</a>
-						</div>
-					</div>
-					<div class="header__img-me">
-						<img src="./img/header/header-computer.jpg" alt="photo">
-						<p>Верстальщик сайтов, веб-разработчик. Оперативная верстка. Работаю с соблюдением сроков и выполнением ТЗ. </p>
-					</div>
-				</section>
-			</div>				
-				
-			<section class="header__desktop">
-				<img src="./img/header/header-fon.png" alt="desktop">
-			</section>
+            <div class="main-row main-row-reverse">
+                <div class="main-content">
+                    <h2 class="header-2">Впечатляющие маршруты</h2>
+                    <div class="main-content-text">
+                        <p>Вишенкой на торте станет поездка в Национальный парк <b>Порт-Кэмпбелл</b> через Ocean Road, которая сама по себе стоит визита в <a href="#">Австралию</a>. Полюбуетесь одной из главных достопримечательностей страны — скалами, которые до 1922 года были известны в народе как <b>«Хрюшка и поросята»</b>, а сегодня носят название «Двенадцать апостолов».</p>
+                    </div>
+                    <a class="button" href="#">Подробнее</a>
+                </div>
+                <div class="main-img">
+                    <img src="./img/Rectangle 4.jpg" alt="Туризм">
+                </div>
+            </div>
+            
+        </div>
+    </main>
 
-			<div class="container">
-				<section class="header__row">
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <div class="logo">ФорестТревел</div>
+                    <p>При поддержке Управления по туризму Российской Федерации. ФорестТревел. Все права защищены. Copyright © 2021
+                </div>
 
-					<div class="header__skills" id="skills">
-						<div class="header__title-third">
-							<h3 class="title-3">Что я умею:</h3>
-						</div>
-						<ul class="header__list-skills">
-							<li>pixel perfect, полное соответствие макету</li>
-							<li>верстаю с сеткой или без</li>
-							<li>адаптивная верстка под мобильные устройства</li>
-							<li>оптимизация по retina экраны</li>
-							<li>с Bootstrap и без него</li>
-						</ul>
-					</div>
+                <div class="footer-widgets-wrapper">
+                    <div class="footer-widget footer-widget-info">
+                        <h4 class="footer-widget-title">Информация</h4>
+                        <ul class="footer-widget-list">
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="./404.html">О компании</a></li>
+                            <li><a href="./404.html">Галерея</a></li>
+                            <li><a href="./404.html">Блог</a></li>
+                        </ul>
+                    </div>
 
-					<div class="header__in-touch">
-						<div class="header__title-third">
-							<h3 class="title-3">На связи:</h3>
-						</div>
-						<ul class="connection">
-							<li class="connection__item"><a href="https://t.me/ateo_immortal"><img src="./img/soc/telegram.svg" alt="telegram"></a></li>
-							<li class="connection__item"><a href="https://vk.com/serega_3naet_tollk"><img src="./img/soc/vk.svg" alt="vk"></a></li>
-							<li class="connection__item"><a href="https://www.facebook.com/profile.php?id=100085423022082"><img src="./img/soc/facebook.svg" alt="facebook"></a></li>
-							<li class="connection__item"><a href="https://www.instagram.com/Ateo_Immortal/"><img src="./img/soc/instagram.svg" alt="instagram"></a></li>
-							<li class="connection__item"><a href="https://api.whatsapp.com/send? phone=80445819214"><img src="./img/soc/whatsapp.svg" alt="whatsapp"></a></li>
-						</ul>	
-						<a class="link" href="mailto:info@portfolio.com">ateo.immortal228@gmail.com</a>
-					</div>
-					
-				</section>
-			</div>
-		</header>
-		
-		<!-- Основной контент -->
-		<main class="main">
+                    <div class="footer-widget footer-widget-services">
+                        <h4 class="footer-widget-title">Услуги</h4>
+                        <ul class="footer-widget-list">
+                            <li><a href="./404.html">Бесплатные туры</a></li>
+                            <li><a href="./404.html">Невероятные приключения</a></li>
+                            <li><a href="./404.html">Экстремальный отдых</a></li>
+                            <li><a href="./404.html">Экзотические джунгли</a></li>
+                            <li><a href="./tours.html">Трекинг походы</a></li>
+                        </ul>
+                    </div>
 
-			<!-- Портфолио -->
-			<section class="main__portfolio" id="portfolio">
-				<div class="container">
-					<div class="main__portfolio-header">
-						<h2 class="title-2 title--gradient-2">Портфолио</h2>
-					</div>
+                    <div class="footer-widget footer-widget-contacts">
+                        <h4 class="footer-widget-title">Контакты</h4>
+                        <ul class="footer-widget-list">
+                            <li>+7 (905) 555-55-55</li>
+                            <li>info@foresttravel.com</li>
+                            <li>г. Москва, Рязанский проспект 54, офис 112.</li>
+                        </ul>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </footer>
 
-					<div class="main__section-sites">
-						<a href="https://ateoimmortal.github.io/Forest-Trevel/">
-							<div class="card">
-								<img src="./img/header/portfolio/1.jpg" alt="Форест тревел">
-								<h5 class="title-4">Верстка “Форест тревел”</h5>
-								<div class="card__text">
-									<p>Верстка многостраничного сайта</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="">
-							<div class="card">
-								<img src="./img/header/portfolio/2.jpg" alt="Юнит">
-								<h5 class="title-4">Сайт приложения “Юнит”</h5>
-								<div class="card__text">
-									<p>Верстка лендинга</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="">
-							<div class="card">
-								<img src="./img/header/portfolio/3.jpg" alt="Мир Авто">
-								<h5 class="title-6">Верстка “Мир Авто”</h5>
-								<div class="card__text">
-									<p>Верстка многостраничного сайта</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="">
-							<div class="card">
-								<img src="./img/header/portfolio/4.jpg" alt="Мир Авто">
-								<h5 class="title-6">Верстка “Мир Авто”</h5>
-								<div class="card__text">
-									<p>Верстка многостраничного сайта</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="">
-							<div class="card">
-								<img src="./img/header/portfolio/5.jpg" alt="Мир Авто">
-								<h5 class="title-6">Верстка “Мир Авто”</h5>
-								<div class="card__text">
-									<p>Верстка многостраничного сайта</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-			</section>
-
-			<section class="hw" id="hw">
-				<div class="container">
-					<div class="hw__work-header">
-						<h2 class="title-2 	title--gradient-2">Как я работаю</h2>
-					</div>
-					<div class="hw__timeline">
-						<div class="hw__timeline--item">
-							<div class="hm__title">
-								<h5 class="title-5 title--gradient-5">Оцениваю макет</h5>
-							</div>
-							<p>Оцениваю объем работы, сложность, нюансы. Задаю вопросы.</p>
-							<span>Время: 2 часа</span>
-						</div>
-						<div class="hw__timeline--item">
-							<div class="hm__title">
-								<h5 class="title-5 title--gradient-5">ТЗ, смета и график работ</h5>
-							</div>
-							<p>Согласовываем техническое задание и график работ по проекту. Осмечиваю стоимость по этапам работы.</p>
-							<span>Время: 2 - 4 часа</span>
-						</div>
-						<div class="hw__timeline--item">
-							<div class="hm__title">
-								<h5 class="title-5 title--gradient-5">Вы держите руку на пульсе</h5>
-							</div>
-							<p>Выдаю клиенту доступ к GitHub репозиторию и доске&nbsp;Trello. Вы в любое время можете видеть актуальное состояние проекта и задач.</p>
-						</div>
-						<div class="hw__timeline--item">
-							<div class="hm__title">
-								<h5 class="title-5 title--gradient-5">Выполняю каждый этап</h5>
-							</div>
-							<p>Поочередно выполняю каждый этап работы. Передаю результаты. Заказчик производит поэтапную оплату.</p></div>
-						<div class="hw__timeline--item">
-							<div class="hm__title">
-								<h5 class="title-5 title--gradient-5">Финальное ревью проекта</h5>
-							</div>
-							<p>Проект готов. Финальное ревью и полировка до идеального&nbsp;состояния. Передаю файлы проекта, заливаю сайт на хостинг заказчика.</p>
-							<span>Время: 2 - 4 часа</span>
-						</div>
-					</div>
-					
-				</div>
-
-			</section>
-
-			<section class="contact" id="contact">
-				<div class="container">
-					<div class="contact__title">
-						<h2 class="title-2 title--gradient-2">Контакты</h2>
-					</div>
-					<div class="contact__row">
-
-						<div class="contact__block-left">
-							<div class="contact__me">
-
-								<div class="contact__info">
-									<div class="contact__text"><span class="contact__name">Email</span></div>
-									<div class="contact__link"><a class="link" href="mailto:info@portfolio.com">ateo.immortal228@gmail.com</a></div>
-								</div>
-								<div class="contact__info">
-									<div class="contact__text"><span class="contact__name">Телефон</span></div>
-									<div class="contact__link"><a class="link" href=”tel:+375445819214”>+375 (44) 581-92-14</a></div>
-								</div>
-
-							</div>
-								
-							<ul class="connection">
-								<li class="connection__item"><a href="https://t.me/ateo_immortal"><img src="./img/soc/telegram.svg" alt="telegram"></a></li>
-								<li class="connection__item"><a href="https://vk.com/serega_3naet_tollk"><img src="./img/soc/vk.svg" alt="vk"></a></li>
-								<li class="connection__item"><a href="https://www.facebook.com/profile.php?id=100085423022082"><img src="./img/soc/facebook.svg" alt="facebook"></a></li>
-								<li class="connection__item"><a href="https://www.instagram.com/Ateo_Immortal/"><img src="./img/soc/instagram.svg" alt="instagram"></a></li>
-								<li class="connection__item"><a href="https://api.whatsapp.com/send? phone=80445819214"><img src="./img/soc/whatsapp.svg" alt="whatsapp"></a></li>
-							</ul>
-						</div>
-					
-						<div class="contact__block-right">
-							<p>Если вы ищите специалиста по верстке сайтов или frontend&nbsp;разработчика в команду для работы над проектом&nbsp;—&nbsp;напишите мне.
-							</p>
-							<div class="contact__img">
-								<img src="./img/contacts-icon.svg" alt="">
-							</div>
-						</div>
-
-
-					</div>
-				</div>
-			</section>
-
-		</main>
-
-		<!-- Подвал -->
-		<footer class="footer">
-			<div class="container">
-				<p>© 2022 — Денис Кушнер</p>
-				<p>Веб-разработчик из Москвы, занимаюсь версткой и созданием сайтов.</p>
-				<p>Этот сайт сделал в рамках прохождения обучения по верстке на курсах от <a href="#">WebCademy.ru</a></p>
-			</div>
-		</footer>
-
-		<script src="./js/main.js"></script>
-	</body>
+</body>
 </html>
